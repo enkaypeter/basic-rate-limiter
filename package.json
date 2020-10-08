@@ -1,0 +1,29 @@
+{
+  "name": "rate-limit",
+  "version": "1.0.0",
+  "description": "An API to demonstrate rate limiting",
+  "main": "app.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/app.js",
+    "start:dev": "nodemon --exec babel-node app.js"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.10.5",
+    "@babel/node": "^7.4.5",
+    "@babel/plugin-transform-runtime": "^7.5.0",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/runtime": "^7.5.4",
+    "body-parser": "^1.19.0",
+    "dotenv": "^6.2.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.1.3",
+    "moment": "^2.29.1",
+    "mongoose": "^5.9.25",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
